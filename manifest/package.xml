@@ -1,28 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>AccountRepository</members>
+        <members>AccountRepositoryMockProvider</members>
+        <members>AccountRepositoryTest</members>
+        <members>AccountService</members>
+        <members>AccountServiceMockProvider</members>
+        <members>AccountServiceTest</members>
+        <members>AccountTriggerHandler</members>
+        <members>AccountTriggerHandlerTest</members>
+        <members>MockUtil</members>
+        <members>TestUtils</members>
+        <members>TriggerHandler</members>
+        <members>TriggerHandler_Test</members>
         <name>ApexClass</name>
     </types>
     <types>
         <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
     </types>
     <types>
         <members>*</members>
@@ -31,6 +26,14 @@
     <types>
         <members>*</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account_With_Name_Already_Exists</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabels</name>
     </types>
     <version>55.0</version>
 </Package>
