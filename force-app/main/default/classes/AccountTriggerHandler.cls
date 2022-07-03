@@ -17,6 +17,9 @@ public with sharing class AccountTriggerHandler extends TriggerHandler {
     @TestVisible
     protected override void beforeInsert() {
         this.accountServ.checkIfExistAll(this.newList);
+//        throw new CustomException('-------Test exeption--------');
     }
+    class CustomException extends Exception {
 
+    }
 }

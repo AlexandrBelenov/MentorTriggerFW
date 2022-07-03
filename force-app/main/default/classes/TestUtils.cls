@@ -31,4 +31,9 @@ public class TestUtils {
         }
         return accounts;
     }
+
+    public static Account getAccount (String name, Boolean isSave) {
+        List<Account> oneAccount = getAccountList(name, 1, isSave);
+        return oneAccount.get(0);
+    }
 }
