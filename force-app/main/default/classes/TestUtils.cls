@@ -17,7 +17,7 @@ public class TestUtils {
     }
 
     public static List<Account> getAccountList(String name, Integer amount, Boolean isSave) {
-        name = (name == null || name == '')? DEFAULT_NAME : name;
+        name = (String.isBlank(name))? DEFAULT_NAME : name;
 
         final List<Account> accounts = new List<Account>();
         for (Integer i = 0; i < amount; i++) {
