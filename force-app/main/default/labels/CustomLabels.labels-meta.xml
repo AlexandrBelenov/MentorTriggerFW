@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Account_With_Name_Already_Exists</fullName>
+        <categories>Error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account With Name Already Exists</shortDescription>
+        <value>An account with that name already exists</value>
+    </labels>
+</CustomLabels>
